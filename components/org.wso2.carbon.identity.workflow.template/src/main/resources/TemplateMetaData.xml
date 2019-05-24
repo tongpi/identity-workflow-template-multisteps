@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <met:MetaData xmlns:met="http://metadata.bean.mgt.workflow.identity.carbon.wso2.org">
     <met:Template>
         <met:TemplateId>MultiStepApprovalTemplate</met:TemplateId>

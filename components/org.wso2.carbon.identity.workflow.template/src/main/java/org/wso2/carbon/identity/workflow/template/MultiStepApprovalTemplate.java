@@ -25,9 +25,8 @@ import org.wso2.carbon.identity.workflow.mgt.template.AbstractTemplate;
 
 public class MultiStepApprovalTemplate extends AbstractTemplate {
 
-    private static final String DESCRIPTION = "The operation should be approved by an authorized person with given " +
-            "role, to complete.";
-    private static final String APPROVAL_TEMPLATE_NAME = "Multi-Step User/Role Approval";
+    private static final String DESCRIPTION = "作应由具有给定角色的授权人员批准，以完成.";
+    private static final String APPROVAL_TEMPLATE_NAME = "多环节用户/角色审批";
     private static final String TEMPLATE_ID = "MultiStepApprovalTemplate";
 
 
