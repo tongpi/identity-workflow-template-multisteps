@@ -63,11 +63,11 @@ public class WorkflowTemplateServiceComponent {
                     .getResourceAsStream(fileName);
             content = WorkflowManagementUtil.readFileFromResource(resourceAsStream);
         } catch (URISyntaxException e) {
-            String errorMsg = "Error occurred while reading file from class path, " + e.getMessage();
+            String errorMsg = "从类路径读取文件时出错, " + e.getMessage();
             log.error(errorMsg);
             throw new WorkflowRuntimeException(errorMsg, e);
         } catch (IOException e) {
-            String errorMsg = "Error occurred while reading file from class path, " + e.getMessage();
+            String errorMsg = "从类路径读取文件时出错, " + e.getMessage();
             log.error(errorMsg);
             throw new WorkflowRuntimeException(errorMsg, e);
         } finally {

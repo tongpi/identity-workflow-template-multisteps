@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <met:MetaData xmlns:met="http://metadata.bean.mgt.workflow.identity.carbon.wso2.org">
     <met:Template>
         <met:TemplateId>MultiStepApprovalTemplate</met:TemplateId>
-        <met:TemplateName>Multi-Step User/Role Approval</met:TemplateName>
-        <met:TemplateDescription>Multi-Step User/Role Approval</met:TemplateDescription>
+        <met:TemplateName>多环节用户/角色审批</met:TemplateName>
+        <met:TemplateDescription>多环节用户/角色审批</met:TemplateDescription>
         <met:ParametersMetaData xmlns:met="http://metadata.bean.mgt.workflow.identity.carbon.wso2.org">
             <met:ParameterMetaData Name="UserAndRole" InputType="Multiple_Steps_User_Role" isRequired="true">
-                <met:DisplayName>User and Role</met:DisplayName>
+                <met:DisplayName>用户和角色</met:DisplayName>
             </met:ParameterMetaData>
         </met:ParametersMetaData>
     </met:Template>
